@@ -3,7 +3,7 @@ def my_select(collection)
  newArr = []
  while i < collection.length
   is_true = yeild(collection[i])
-  if (is_true) do
+  if (is_true) 
     newArr << collection[i]
   end
   i += 1
